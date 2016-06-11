@@ -1,0 +1,26 @@
+<resources>
+    <declare-styleable name="BubbleLayout">
+        <attr name="bl_arrowWidth" format="dimension|reference" />
+        <attr name="bl_cornersRadius" format="dimension|reference" />
+        <attr name="bl_arrowHeight" format="dimension|reference" />
+        <attr name="bl_arrowPosition" format="dimension|reference" />
+        <attr name="bl_bubbleColor" format="color|reference" />
+        <attr name="bl_strokeWidth" format="dimension|reference" />
+        <attr name="bl_strokeColor" format="color|reference" />
+
+        <attr name="bl_arrowDirection" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
